@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+.container1{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    
+    font-weight: 700;
+    padding-top: 2%;
+}
+.container2{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    
+}
+.box1 h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.box1 p{
+    color:hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: -100%;
+}
+.box2 p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+.box2 .div1{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    background:hsl(300, 24%, 96%) ;
+}
+.box2 .div2{
+    width: 93%;
+    height: 30%;
+    
+    background:hsl(300, 24%, 96%) ;
+    position: relative;
+    left: 10px;
+    top: 4px;
+    border-radius: 10px;
+}
+.box2 .div3{
+    width: 90%;
+    height: 30%;
+    
+    background:hsl(300, 24%, 96%) ;
+    position: relative;
+    left: 27px;
+    top: 9px;
+    border-radius: 10px;
+}
+.div1 p{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.div2 p{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.div3 p{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.review1{
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+}
+.review2{
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    position: relative;
+    left: 33%;
+    top: -85%;
+    background: hsl(300, 43%, 22%);
+}
+.review3{
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    position: relative;
+    left: 67%;
+    top: -170%;
+    background: hsl(300, 43%, 22%);
+}
+.user{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 50%;
+    height: 25%;
+}
+.user img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.user p{
+    position: relative;
+    top: -35px;
+    left: 40px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+.user .v{
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.w{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    line-break: loose;
+}
